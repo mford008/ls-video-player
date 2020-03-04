@@ -1,0 +1,51 @@
+[
+{
+    "title": "Python Control Flow",
+    "id": "1",
+    "assign_date": "",
+    "completed": false,
+    "content": "<h1>Intro</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />",
+    "sections": [
+        {
+            "title": "Intro Lecture",
+            "html_contents": "<h1>Intro</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />"
+        },
+        {
+            "title": "Activity 1 - Intro",
+            "html_contents": "<h1>Intro</h1>\n<video src='jwplayer.com/3wefds34asdfa34' />"
+        }
+    ]
+},
+{
+    "title": "React",
+    "id": "2",
+    "assign_date": "",
+    "completed": false,
+    "sections": [
+        {
+            "title": "React Intro Lecture",
+            "html_contents": "<h1>Intro</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />"
+        },
+        {
+            "title": "Activity 1 React - Intro",
+            "html_contents": "<h1>Activity 1 - Intro</h1>\n<video src='jwplayer.com/3wefds34asdfa34' />"
+        }
+    ]
+},
+{
+    "title": "JavaScript",
+    "id": "3",
+    "assign_date": "",
+    "completed": false,
+    "sections": [
+        {
+            "title": "JS Intro Lecture",
+            "html_contents": "<h1>Intro</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />"
+        },
+        {
+            "title": "Activity 1 JS - Intro",
+            "html_contents": "<h1>Intro</h1>\n<video src='jwplayer.com/3wefds34asdfa34' />"
+        }
+    ]
+}
+]
