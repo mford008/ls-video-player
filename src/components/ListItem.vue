@@ -21,6 +21,5 @@ export default {
 .listItem {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    background-color: grey;
 }
 </style>

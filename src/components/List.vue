@@ -1,8 +1,9 @@
 <template>
   <div>
-    <ul>
+    <ul class="list">
       <ListItem
         v-for="item in items"
+        class="listItem"
         :item="item"
         :key="item.id">
       </ListItem>
@@ -27,5 +28,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-
+.list {
+  background: gray;
+  padding: 0;
+  margin: 0;
+  /* border-left: 2px solid black; */
+}
+.listItem {
+  border-top: 2px solid black;
+}
 </style>
