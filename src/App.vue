@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <VideoPlayer :items="items" class="videoPlayer" />
+    <!-- v-html="linkfromlecture" -->
+    <VideoPlayer :items="items" :selectedVideo="selectedVideo" class="videoPlayer" />
     <List :items="items" class="list" />
   </div>
 </template>
@@ -8,6 +9,8 @@
 <script>
 import List from './components/List.vue';
 import VideoPlayer from './components/VideoPlayer.vue';
+import { store } from "./store.js";
+
 
 export default {
   name: 'App',
@@ -18,6 +21,7 @@ export default {
   data() {
     return {
       items: [],
+      selectedVideo: store.state.selectedVideo,
     }
   },
   mounted: function () {
@@ -27,9 +31,17 @@ export default {
     })
     .then((data) => {
       console.log(data);
+      console.log('store', store);
       this.items = data;
     });
-  }
+  },
+  // methods: {
+  //   updateVideo() {
+    // TODO: set up as watch
+  //     this.selectedVideo = store.state.selectedVideo;
+  //     console.log('from app new video', store.state.selectedVideo);
+  //   },
+  // }
 }
 
 </script>
