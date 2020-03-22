@@ -1,7 +1,6 @@
 <template>
   <div class="container">
-    <!-- v-html="linkfromlecture" -->
-    <VideoPlayer :items="items" :selectedVideo="selectedVideo" class="videoPlayer" />
+    <VideoPlayer :items="items" class="videoPlayer" />
     <List :items="items" class="list" />
   </div>
 </template>
@@ -35,13 +34,6 @@ export default {
       this.items = data;
     });
   },
-  // methods: {
-  //   updateVideo() {
-    // TODO: set up as watch
-  //     this.selectedVideo = store.state.selectedVideo;
-  //     console.log('from app new video', store.state.selectedVideo);
-  //   },
-  // }
 }
 
 </script>

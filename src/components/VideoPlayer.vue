@@ -2,6 +2,7 @@
   <div class="videoPlayer">
       <h1>test</h1>
       <h2>{{storeState.selectedVideo.title}}</h2>
+      <div v-html="rawHTML()"></div>
   </div>
 </template>
 
@@ -19,6 +20,11 @@ export default {
     selectedVideo: {
         type: Object,
         value: {},
+    }
+  },
+  methods: {
+    rawHTML() {
+      return this.storeState.selectedVideo.content;
     }
   }
 }

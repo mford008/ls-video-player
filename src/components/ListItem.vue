@@ -23,9 +23,6 @@ export default {
   methods: {
     selectLecture() {
       this.storeState.selectedVideo = this.item;
-      // let newVideo = this.item;
-      // this.$emit('update', newVideo);
-      // console.log('emitted: ', newVideo);
     }
   },
 }
