@@ -1,6 +1,8 @@
 <template>
-  <div class="videoPlayer">
-      <h2>{{storeState.selectedVideo.title}}</h2>
+  <div>
+    <video src="selectedVideo" controls></video>
+
+      <!-- <h2>{{storeState.selectedVideo.title}}</h2> -->
       <!-- <div v-html="storeState.selectedVideo.content"></div> -->
   </div>
 </template>
@@ -34,5 +36,9 @@ export default {
 .videoPlayer {
     background-color: lightblue;
     width: 100%;
+}
+video {
+  background: magenta;
+  z-index: 100000;
 }
 </style>

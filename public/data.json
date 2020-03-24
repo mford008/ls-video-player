@@ -38,11 +38,11 @@
     "id": "3",
     "assign_date": "",
     "completed": false,
-    "content": "<h1>JS</h1><video src='jwplayer.com/oaw49r8vhfsiah4u' />",
+    "content": "https://jwplayer.com/oaw49r8vhfsiah4u",
     "sections": [
         {
             "title": "JS Intro Lecture",
-            "html_contents": "<h1>Intro</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />"
+            "html_contents": "<h1>Intro</h1>\n<video src='https://jwplayer.com/oaw49r8vhfsiah4u' />"
         },
         {
             "title": "Activity 1 JS - Intro",
