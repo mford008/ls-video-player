@@ -4,7 +4,7 @@
     "id": "1",
     "assign_date": "",
     "completed": false,
-    "content": "<h1>Intro</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />",
+    "content": "<h1>Python</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />",
     "sections": [
         {
             "title": "Intro Lecture",
@@ -21,7 +21,7 @@
     "id": "2",
     "assign_date": "",
     "completed": false,
-    "content": "<h1>Intro</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />",
+    "content": "<h1>React</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />",
     "sections": [
         {
             "title": "React Intro Lecture",
@@ -38,7 +38,7 @@
     "id": "3",
     "assign_date": "",
     "completed": false,
-    "content": "<h1>Intro</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />",
+    "content": "<h1>JS</h1><video src='jwplayer.com/oaw49r8vhfsiah4u' />",
     "sections": [
         {
             "title": "JS Intro Lecture",
