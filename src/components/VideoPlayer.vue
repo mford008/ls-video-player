@@ -1,6 +1,5 @@
 <template>
   <div class="videoPlayer">
-      <h1>test</h1>
       <h2>{{storeState.selectedVideo.title}}</h2>
       <!-- <div v-html="storeState.selectedVideo.content"></div> -->
   </div>

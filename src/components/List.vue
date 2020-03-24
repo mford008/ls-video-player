@@ -20,6 +20,7 @@ export default {
   data() {
     return {
       storeState: store.state,
+      // activeItem: ''
     }
   },
   components: {
@@ -28,12 +29,24 @@ export default {
   props: {
     items: Array,
   },
+  // computed: {
+  //   isActive(item) {
+  //     this.activeItem = item;
+  //   }
+  // },
+  // methods: {
+  //   check() {
+  //     // this.activeItem = this.item;
+  //     // console.log('hello');
+  //     // console.log(event);
+  //   }
+  // }
 }
 </script>
 
 <style>
 .list {
-  background: gray;
+  background: #292929;
   padding: 0;
   margin: 0;
 }

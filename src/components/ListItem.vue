@@ -1,6 +1,6 @@
 <template>
-  <div class="listItem" @click="selectLecture">
-    <h1>{{ item.title }}</h1>
+  <div class="listItem" :class="{ 'active': activeItem === item }" @click="selectLecture">
+    <p>{{ item.title }}</p>
   </div>
 </template>
 
@@ -12,6 +12,7 @@ export default {
   data() {
     return {
       storeState: store.state,
+      activeItem: ''
     }
   },
   props: {
@@ -20,10 +21,19 @@ export default {
         value: '',
     }
   },
+  // computed: {
+  //   isActive() {
+  //     return this.storeState.selectedVideo;
+  //   }
+  // },
   methods: {
     selectLecture() {
+      // console.log('test', this.item.title, this.storeState.selectedVideo.title);
       this.storeState.selectedVideo = this.item;
-    }
+      this.activeItem = this.item;
+      console.log('literally anything');
+    },
+
   },
 }
 
@@ -31,7 +41,8 @@ export default {
 
 <style>
 .listItem {
-    font-family: 'Raleway', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    color: white;
 }
 </style>
