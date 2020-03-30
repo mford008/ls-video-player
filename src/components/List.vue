@@ -3,7 +3,7 @@
     <ul class="list">
       <ListItem
         v-for="item in items"
-        class="listItem"
+        :class="{'list-item--active' : storeState.selectedVideo.title === item.title }"
         :item="item"
         :key="item.id">
       </ListItem>
@@ -20,7 +20,6 @@ export default {
   data() {
     return {
       storeState: store.state,
-      // activeItem: ''
     }
   },
   components: {
@@ -29,28 +28,15 @@ export default {
   props: {
     items: Array,
   },
-  // computed: {
-  //   isActive(item) {
-  //     this.activeItem = item;
-  //   }
-  // },
-  // methods: {
-  //   check() {
-  //     // this.activeItem = this.item;
-  //     // console.log('hello');
-  //     // console.log(event);
-  //   }
-  // }
 }
 </script>
 
 <style>
 .list {
-  background: #292929;
+  background-color: #19b6fe;
   padding: 0;
   margin: 0;
+  height: 100vh;
 }
-.listItem {
-  border-top: 2px solid black;
-}
+
 </style>

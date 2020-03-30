@@ -1,9 +1,15 @@
 <template>
   <div>
-    <video src="selectedVideo" controls></video>
-
-      <!-- <h2>{{storeState.selectedVideo.title}}</h2> -->
-      <!-- <div v-html="storeState.selectedVideo.content"></div> -->
+    <vue-plyr>
+      <h1>{{ storeState.selectedVideo.title }}</h1>
+      <div class="video-player">
+        <!-- TODO: find appropriate tag for video -->
+        <!-- <iframe
+          src="selectedVideo"
+          allowfullscreen allowtransparency>
+        </iframe> -->
+      </div>
+    </vue-plyr>
   </div>
 </template>
 
@@ -18,27 +24,14 @@ export default {
       selectedVideo: store.state.selectedVideo.content,
     }
   },
-  // props: {
-  //   selectedVideo: {
-  //       type: Object,
-  //       value: {},
-  //   }
-  // },
-  // methods: {
-  //   rawHTML() {
-  //     return this.storeState.selectedVideo.content;
-  //   }
-  // }
 }
 </script>
 
 <style>
-.videoPlayer {
-    background-color: lightblue;
-    width: 100%;
+.video-player {
+  background-color: #292929;
+  width: 100%;
+  height: 100vh;
 }
-video {
-  background: magenta;
-  z-index: 100000;
-}
+
 </style>

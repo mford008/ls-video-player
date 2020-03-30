@@ -1,6 +1,6 @@
 <template>
-  <div class="listItem" :class="{ 'active': activeItem === item }" @click="selectLecture">
-    <p>{{ item.title }}</p>
+  <div class="list-item" @click="selectLecture">
+    <p class="list-item__content">{{ item.title }}</p>
   </div>
 </template>
 
@@ -21,17 +21,10 @@ export default {
         value: '',
     }
   },
-  // computed: {
-  //   isActive() {
-  //     return this.storeState.selectedVideo;
-  //   }
-  // },
   methods: {
     selectLecture() {
-      // console.log('test', this.item.title, this.storeState.selectedVideo.title);
       this.storeState.selectedVideo = this.item;
       this.activeItem = this.item;
-      console.log('literally anything');
     },
 
   },
@@ -40,9 +33,24 @@ export default {
 </script>
 
 <style>
-.listItem {
+.list-item {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 2em;
     color: white;
+    background-color: #19b6fe;
+    padding: 10px;
+    border-top: 2px solid black;
+}
+
+.list-item:nth-last-child(1) {
+  border-bottom: 2px solid black;
+}
+
+.list-item__content {
+  margin: 0;
+  margin-left: 1em;
+}
+.list-item--active {
+  background-color: gray;
 }
 </style>

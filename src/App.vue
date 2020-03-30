@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <VideoPlayer :items="items" class="videoPlayer" />
+    <VideoPlayer :items="items" class="video-player" />
     <List :items="items" class="list" />
   </div>
 </template>
@@ -29,8 +29,6 @@ export default {
       return response.json();
     })
     .then((data) => {
-      console.log(data);
-      console.log('store', store);
       this.items = data;
     });
   },
@@ -44,6 +42,5 @@ export default {
   grid-template-columns: 3fr 1fr;
   grid-template-rows: auto;
 }
-
 
 </style>
