@@ -3,11 +3,8 @@
     <vue-plyr>
       <h1>{{ storeState.selectedVideo.title }}</h1>
       <div class="video-player">
-        <!-- TODO: find appropriate tag for video -->
-        <!-- <iframe
-          src="selectedVideo"
-          allowfullscreen allowtransparency>
-        </iframe> -->
+        <!-- <script src="https://cdn.jwplayer.com/players/MR3uTcIX-pqIEnat9.js"></script> -->
+      <!-- <iframe src="https://cdn.jwplayer.com/players/4oE5ZjIY-MoGLPkuA.html"></iframe> -->
       </div>
     </vue-plyr>
   </div>
