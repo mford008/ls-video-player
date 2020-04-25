@@ -56,7 +56,7 @@ export default {
 
 @media screen and (min-width: 439px){
   .list-item {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .list-item__content {
     margin-left: 1em;

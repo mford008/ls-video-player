@@ -1,53 +1,50 @@
 [
-{
-    "title": "Python Control Flow",
-    "id": "1",
-    "assign_date": "",
-    "completed": false,
-    "content": "avXQjOjF-pqIEnat9",
-    "sections": [
-        {
-            "title": "Intro Lecture",
-            "html_contents": "<h1>Intro</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />"
-        },
-        {
-            "title": "Activity 1 - Intro",
-            "html_contents": "<h1>Intro</h1>\n<video src='jwplayer.com/3wefds34asdfa34' />"
-        }
-    ]
-},
-{
-    "title": "React",
-    "id": "2",
-    "assign_date": "",
-    "completed": false,
-    "content": "v14McbBK-pqIEnat9",
-    "sections": [
-        {
-            "title": "React Intro Lecture",
-            "html_contents": "<h1>Intro</h1>\n<video src='jwplayer.com/oaw49r8vhfsiah4u' />"
-        },
-        {
-            "title": "Activity 1 React - Intro",
-            "html_contents": "<h1>Activity 1 - Intro</h1>\n<video src='jwplayer.com/3wefds34asdfa34' />"
-        }
-    ]
-},
-{
-    "title": "JavaScript",
-    "id": "3",
-    "assign_date": "",
-    "completed": false,
-    "content": "MR3uTcIX-pqIEnat9",
-    "sections": [
-        {
-            "title": "JS Intro Lecture",
-            "html_contents": "<h1>Intro</h1>\n<video src='https://jwplayer.com/oaw49r8vhfsiah4u' />"
-        },
-        {
-            "title": "Activity 1 JS - Intro",
-            "html_contents": "<h1>Intro</h1>\n<video src='jwplayer.com/3wefds34asdfa34' />"
-        }
-    ]
-}
+    {
+        "title": "Activity 1 - Intro",
+        "type": "video",
+        "id": "1-1",
+        "content": "avXQjOjF-pqIEnat9"
+    },
+    {
+        "title": "Activity 1 - Solution",
+        "type": "video",
+        "id": "1-2",
+        "content": "v14McbBK-pqIEnat9"
+    },
+    {
+        "title": "Activity 2 - Intro",
+        "type": "video",
+        "id": "2-1",
+        "content": "ziATo0Cj-pqIEnat9"
+    },
+    {
+        "title": "Activity 2 - Solution",
+        "type": "video",
+        "id": "2-2",
+        "content": "cYO8qomw-pqIEnat9"
+    },
+    {
+        "title": "Activity 3 - Intro",
+        "type": "video",
+        "id": "3-1",
+        "content": "4bLEo4RD-pqIEnat9"
+    },
+    {
+        "title": "Activity 3 - Solution",
+        "type": "video",
+        "id": "3-2",
+        "content": "MR3uTcIX-pqIEnat9"
+    },
+    {
+        "title": "Activity 4 - Intro",
+        "type": "video",
+        "id": "4-1",
+        "content": "ROl3jjJj-pqIEnat9"
+    },
+    {
+        "title": "Activity 4 - Solution",
+        "type": "video",
+        "id": "4-2",
+        "content": "mP65FIrk-pqIEnat9"
+    }
 ]
