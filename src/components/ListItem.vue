@@ -35,7 +35,7 @@ export default {
 <style>
 .list-item {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     color: white;
     background-color: #19b6fe;
     padding: 10px;
@@ -48,9 +48,18 @@ export default {
 
 .list-item__content {
   margin: 0;
-  margin-left: 1em;
+  margin-left: 0.5em;
 }
 .list-item--active {
   background-color: gray;
+}
+
+@media screen and (min-width: 439px){
+  .list-item {
+    font-size: 2em;
+  }
+  .list-item__content {
+    margin-left: 1em;
+  }
 }
 </style>
